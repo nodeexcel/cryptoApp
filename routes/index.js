@@ -25,21 +25,6 @@ let coins = [{
   symbol: 'bitcoin-sv',
   balanceAddr: 'https://api.blockchair.com/{:chain}/dashboards/address/{:address}',
   trxAddr: 'https://api.blockchair.com/{:chain}/dashboards/transaction/{txhash}'
-}, {
-  coinName: 'Doge Coin',
-  symbol: 'dogecoin',
-  balanceAddr: 'https://api.blockchair.com/{:chain}/dashboards/address/{:address}',
-  trxAddr: 'https://api.blockchair.com/{:chain}/dashboards/transaction/{txhash}'
-}, {
-  coinName: 'Dash',
-  symbol: 'dash',
-  balanceAddr: 'https://api.blockchair.com/{:chain}/dashboards/address/{:address}',
-  trxAddr: 'https://api.blockchair.com/{:chain}/dashboards/transaction/{txhash}'
-}, {
-  coinName: 'Gro Estl Coin',
-  symbol: 'groestlcoin',
-  balanceAddr: 'https://api.blockchair.com/{:chain}/dashboards/address/{:address}',
-  trxAddr: 'https://api.blockchair.com/{:chain}/dashboards/transaction/{txhash}'
 }]
 /* GET home page. */
 router.get('/', function (req, res, next) {
