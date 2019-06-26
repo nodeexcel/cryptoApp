@@ -15,12 +15,7 @@ let coins = [{
   coinName: 'Ethereum',
   symbol: 'ETH',
   address: 'https://blockchain.coinmarketcap.com/api/addresses?start=1&limit=10',
-}, {
-  coinName: 'Bitcoin Cash',
-  symbol: 'bitcoincash',
-  balanceAddr: 'https://blockdozer.com/insight-api/addr/',
-  trxAddr: 'https://blockdozer.com/insight-api/txs'
-}, {
+},{
   coinName: 'Bitcoin SV',
   symbol: 'bitcoin-sv',
   balanceAddr: 'https://api.blockchair.com/{:chain}/dashboards/address/{:address}',
